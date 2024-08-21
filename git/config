@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/nikandr-surkov/Hamster-Kombat-Telegram-Mini-App-Clone.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "final-version"]
+	remote = origin
+	merge = refs/heads/final-version
+[branch "initial-setup"]
+	remote = origin
+	merge = refs/heads/initial-setup
